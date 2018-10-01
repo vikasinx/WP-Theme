@@ -19,15 +19,17 @@
 		<div class="grid-container">
 			<div class="grid-25 tablet-grid-25 mobile-grid-100 ">
 				<div class="logo">
-					<?php 	
-						$custom_logo_id = get_theme_mod( 'custom_logo' );
-						$logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );
-						if ( has_custom_logo() ) {
-						        echo '<img class="logo_img" src="'. esc_url( $logo[0] ) .'">';
-						} else {
-						        echo '<h1>'. get_bloginfo( 'name' ) .'</h1>';
-						}
-					?>
+					<a href="<?php echo site_url(); ?>">
+						<?php 	
+							$custom_logo_id = get_theme_mod( 'custom_logo' );
+							$logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+							if ( has_custom_logo() ) {
+							        echo '<img class="logo_img" src="'. esc_url( $logo[0] ) .'">';
+							} else {
+							        echo '<h1>'. get_bloginfo( 'name' ) .'</h1>';
+							}
+						?>
+					</a>
 				</div>
 			</div>
 			<div class="grid-75 tablet-grid-75 mobile-grid-100 ">

@@ -171,6 +171,91 @@ get_header();
 				</div>
 		</div>
 	</div>
+<!-- Portfolio Section -->
 
+	<div id="portfolio">
+		<div class="portfolio_inner">
+			<div class="grid-container">
+				<div class="grid-100 tablet-grid-100 mobile-grid-100">
+					<div class="fbs_home_title">
+						<?php echo get_theme_mod('fbs_home_portfolio_title'); ?>
+					</div>
+					<?php 
+						$port_total_items = get_theme_mod('fbs_home_portfolio_total');
+						if(empty($port_total_items)) { $port_total_items = 4; }
+
+					    query_posts(array( 
+					        'post_type' => 'fbs_portfolio',
+					        'showposts' => $port_total_items 
+					    ) );  
+					?>
+					<?php while (have_posts()) : the_post(); 
+						if($port_total_items % 3 == 0){
+						?>
+						<div class="grid-33 tablet-grid-33 mobile-grid-100">
+							<div class="protfolio_box">
+								<div class="protfolio_box_inner">	
+								<div class="portfolio_img">
+									<img src="<?php echo get_the_post_thumbnail_url(); ?>">
+								</div>														
+								<a href="<?php the_permalink(); ?>"><div class="protfolio_title"><?php the_title(); ?></div></a>
+								</div>
+							</div>
+						</div>
+					<?php } else{ ?>
+						<div class="grid-25 tablet-grid-50 mobile-grid-100">
+							<div class="protfolio_box">
+								<div class="protfolio_box_inner">	
+								<div class="portfolio_img">
+									<img src="<?php echo get_the_post_thumbnail_url(); ?>">
+								</div>														
+								<a href="<?php the_permalink(); ?>"><div class="protfolio_title"><?php the_title(); ?></div></a>
+								</div>
+							</div>
+						</div>
+					<?php } endwhile;?>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- Contact Section -->
+	<div id="contact">
+		<div class="contact_innner">
+			<div class="grid-container">
+				<div class="grid-100 tablet-grid-100 mobile-grid-100">
+					<div class="fbs_home_title">
+						<?php echo get_theme_mod('fbs_home_contact_title'); ?>
+					</div>
+				</div>
+				<div class="grid-100 tablet-grid-100 mobile-grid-100">
+					<div class="grid-50 tablet-grid-50 mobile-grid-100">
+						<div class="contact_form">
+							<?php echo do_shortcode(get_theme_mod('fbs_home_contact_form_shortcode')); ?>
+						</div>
+					</div>
+					<div class="grid-50 tablet-grid-50 mobile-grid-100">
+						<div class="contact_address">
+							<div class="map">
+								<?php echo get_theme_mod('fbs_home_contact_map'); ?>
+							</div>
+							<div class="address">
+								<i class="fa fa-map-marker" aria-hidden="true"></i> 
+								<?php echo get_theme_mod('fbs_home_contact_address'); ?>
+							</div>
+							<div class="phone">
+								<i class="fa fa-phone" aria-hidden="true"></i>
+								<p><a href="tel:<?php echo get_theme_mod('fbs_home_contact_number'); ?>"><?php echo get_theme_mod('fbs_home_contact_number'); ?></a></p>
+							</div>
+							<div class="email">
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+								<p><a href="mailto:<?php echo get_theme_mod('fbs_home_contact_email'); ?>"><?php echo get_theme_mod('fbs_home_contact_email'); ?></a></p>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 <?php get_footer();?>

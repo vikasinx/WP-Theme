@@ -1,0 +1,624 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"co",
+				"cover\tbackground-size"
+			],
+			[
+				"back",
+				"background-size\tproperty"
+			],
+			[
+				"perce",
+				"percent"
+			],
+			[
+				"ser",
+				"service_title"
+			],
+			[
+				"grid",
+				"grid-container"
+			],
+			[
+				"the",
+				"the_permalink"
+			],
+			[
+				"borde",
+				"border-color\tproperty"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"text",
+				"text-decoration\tproperty"
+			],
+			[
+				"fon",
+				"font-weight\tproperty"
+			],
+			[
+				"ma",
+				"margin\tproperty"
+			],
+			[
+				"js",
+				"json_encode"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"Ans",
+				"answer"
+			],
+			[
+				"tra",
+				"target\tAttr"
+			],
+			[
+				"name",
+				"namev"
+			],
+			[
+				"GET_",
+				"get_headers"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"bor",
+				"border-color\tproperty"
+			],
+			[
+				"backl",
+				"background-color\tproperty"
+			],
+			[
+				"bacl",
+				"background-color\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"tot",
+				"total_items"
+			],
+			[
+				"totl",
+				"total_items"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"tw",
+				"twitter_url"
+			],
+			[
+				"opti",
+				"optionsdata"
+			],
+			[
+				"opt",
+				"options"
+			],
+			[
+				"fo",
+				"for\tAttr"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"get_op",
+				"get_option"
+			],
+			[
+				"use",
+				"user_status"
+			],
+			[
+				"op",
+				"options_data"
+			],
+			[
+				"jsco",
+				"json_encode"
+			],
+			[
+				"the_",
+				"the_field"
+			],
+			[
+				"min",
+				"min-height\tproperty"
+			],
+			[
+				"cha",
+				"changedNameHandler"
+			],
+			[
+				"chan",
+				"changedNameHandler"
+			],
+			[
+				"stat",
+				"state\tReact: this.state."
+			],
+			[
+				"Swi",
+				"SwitchnameHandler"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"backgr",
+				"background-color\tproperty"
+			],
+			[
+				"bx",
+				"box-shadow\tproperty"
+			],
+			[
+				"inlin",
+				"inline-block\tdisplay"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"r",
+				"rcc\tReact: class component"
+			],
+			[
+				"fa",
+				"false"
+			],
+			[
+				"val",
+				"validate"
+			],
+			[
+				"cance",
+				"cancellation"
+			],
+			[
+				"rese",
+				"reservation"
+			],
+			[
+				"link",
+				"linkedin"
+			],
+			[
+				"profile",
+				"profile_url"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"t",
+				"top"
+			],
+			[
+				"coun",
+				"country"
+			],
+			[
+				"fir",
+				"firm"
+			],
+			[
+				"firm",
+				"firm_image"
+			],
+			[
+				"background-c",
+				"background-clip"
+			],
+			[
+				"sc",
+				"scroll"
+			],
+			[
+				"im",
+				"image"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"cont",
+				"container"
+			],
+			[
+				"upco",
+				"upcoming_res"
+			],
+			[
+				"ex",
+				"exit"
+			],
+			[
+				"sear",
+				"search_query"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"date",
+				"date2"
+			],
+			[
+				"start",
+				"start_date"
+			],
+			[
+				"limi",
+				"limited_query"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 88.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"rub",
+				"Set Syntax: Ruby on Rails"
+			],
+			[
+				"ayu",
+				"ayu: Activate theme"
+			],
+			[
+				"ma",
+				"Material Theme: Advanced configuration"
+			],
+			[
+				"mate",
+				"Material Theme: Advanced configuration"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"skin",
+				"Preferences: Key Bindings"
+			],
+			[
+				"boxy",
+				"Boxy Theme: Preferences"
+			],
+			[
+				"pa",
+				"Install Package Control"
+			]
+		],
+		"width": 431.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/html/wp/wp_theme/wp-content/themes/firm/functions/fbs-theme-options.php",
+		"/var/www/html/wp/wp_theme/wp-content/themes/firm/functions.php",
+		"/var/www/html/wp/wp_theme/wp-content/themes/firm/js/custom.js",
+		"/var/www/html/wp/wp_theme/wp-content/themes/firm/style.css",
+		"/var/www/html/wp/wp_theme/wp-content/themes/firm/font-page.php",
+		"/var/www/html/wp/wp_theme/wp-content/themes/firm/footer.php",
+		"/var/www/html/wp/wp_theme/wp-content/themes/firm/js/circlif.min.js",
+		"/var/www/html/wp/wp_theme/wp-content/themes/firm/js/customize.js",
+		"/var/www/html/wp/wp_theme/wp-content/themes/firm/js/customizer-repeater.js",
+		"/var/www/html/wp/wp_theme/wp-content/themes/firm/functions/custom-repeater.php",
+		"/var/www/html/wp/wp_theme/wp-content/themes/firm/functions/custom-sortable-repeater.php",
+		"/var/www/html/wp/wp_theme/wp-content/themes/firm/functions/custom-sortable.php",
+		"/var/www/html/wp/wp_theme/wp-content/themes/firm/comments.php",
+		"/var/www/html/wp/wp_theme/wp-content/themes/firm/template-parts/post/content.php",
+		"/var/www/html/wp/wp_theme/wp-content/themes/firm/single.php",
+		"/var/www/html/wp/wp_theme/wp-content/themes/firm/index.php",
+		"/var/www/html/wp/wp_theme/wp-content/themes/firm/page.php",
+		"/var/www/html/wp/wp_theme/wp-config.php",
+		"/run/user/1001/gvfs/smb-share:server=192.168.1.139,share=linwoodforest/wp-content/themes/sydney-pro-ii/custom_style.css",
+		"/tmp/fz3temp-1/custom_style.css",
+		"/var/www/html/wp/wp_theme/wp-content/themes/firm/sidebar.php",
+		"/var/www/html/wp/wp_theme/wp-content/themes/firm/header.php",
+		"/var/www/html/wp/wp_theme/wp-content/themes/firm/template-parts/page/content-page.php",
+		"/var/www/html/wp/wordpress/wp-content/themes/twentyseventeen/single.php",
+		"/var/www/html/wp/wordpress/wp-content/themes/twentyseventeen/index.php",
+		"/var/www/html/wp/wp_theme/wp-content/themes/firm/search.php",
+		"/var/www/html/wp/wp_theme/wp-content/themes/firm/searchform.php",
+		"/var/www/html/wp/wp_theme/wp-content/themes/firm/css/unsementic-grid.css",
+		"/var/www/html/wp/test_php/wp_api/woocommerce/products.php",
+		"/var/www/html/wp/wp_theme/wp-content/themes/firm/404.php",
+		"/var/www/html/wp/wp_theme/wp-content/themes/firm/archive.php",
+		"/var/www/html/wp/wordpress/wp-config.php",
+		"/var/www/html/wp/test_php/wp_api/woocommerce/customers.php",
+		"/var/www/html/wp/test_php/wp_api/woocommerce/config.php",
+		"/var/www/html/wp/test_php/wp_api/woocommerce/vendor/composer/installed.json",
+		"/var/www/html/wp/wordpress/wp-content/plugins/pmpro-signup-shortcode/pmpro-signup-shortcode.php",
+		"/var/www/html/wp/generatepress/wp-content/themes/gp-child/style.css",
+		"/var/www/html/wp/test_php/wp_api/woocommerce/vendor/autoload.php",
+		"/var/www/html/wp/test_php/wp_api/woocommerce/vendor/composer/autoload_real.php",
+		"/var/www/html/wp/test_php/wp_api/woocommerce/index.php",
+		"/var/www/html/wp/test_php/vendor/autoload.php",
+		"/var/www/html/wp/test_php/composer.json",
+		"/var/www/html/wp/test_php/wp_api/test.php",
+		"/var/www/html/wp/generatepress/wp-config.php",
+		"/var/www/html/wp/generatepress/wp-content/themes/generatepress/style.css",
+		"/var/www/html/wp/generatepress/wp-content/themes/gp-premium/gp-premium.php",
+		"/var/www/Themes/gppremium171/thewpclub.net.txt",
+		"/tmp/fz3temp-2/styles.css",
+		"/tmp/fz3temp-2/style.css",
+		"/tmp/fz3temp-2/style 2.css",
+		"/tmp/fz3temp-1/mt-blogpost01.php",
+		"/tmp/fz3temp-1/themeslr-framework.php",
+		"/var/www/html/wp/conshyGOP/themes/politicalwp/inc/custom-functions.footer.php",
+		"/tmp/fz3temp-1/footer.php",
+		"/var/www/projects/conshyGOP/admin_apss",
+		"/var/www/html/wp/wordpress/wp-content/themes/generatepress/functions.php",
+		"/var/www/html/wp/wordpress/wp-content/themes/generatepress/single-movies.php",
+		"/var/www/html/wp/linwood/wp-content/themes/sydney-pro-ii/widgets/fp-employees-type-b.php",
+		"/var/www/html/wp/linwood/wp-content/themes/sydney-pro-ii/widgets/fp-employees.php",
+		"/var/www/html/wp/wordpress/wp-content/themes/generatepress/index.php",
+		"/var/www/html/wp/wordpress/wp-content/themes/generatepress/content.php",
+		"/var/www/html/wp/wordpress/wp-content/themes/generatepress/movies-single.php",
+		"/var/www/html/wp/wordpress/wp-content/themes/generatepress/content-single.php",
+		"/var/www/html/wp/wordpress/wp-content/themes/twentyseventeen/functions.php",
+		"/var/www/html/wp/wordpress/wp-content/themes/storefront/comments.php",
+		"/var/www/html/wp/wordpress/wp-content/themes/storefront/inc/class-storefront.php",
+		"/var/www/html/wp/wordpress/wp-content/themes/storefront/content-single.php",
+		"/var/www/html/wp/wordpress/wp-content/themes/storefront/single.php",
+		"/var/www/html/wp/wordpress/wp-content/themes/storefront/functions.php",
+		"/tmp/fz3temp-1/index 4.php",
+		"/tmp/fz3temp-1/index 3.php",
+		"/tmp/fz3temp-1/index 2.php",
+		"/tmp/fz3temp-1/index.php",
+		"/var/www/projects/corporate/math_quiz/style.css",
+		"/tmp/fz3temp-1/sendMail.php",
+		"/tmp/fz3temp-1/footer-new.php",
+		"/var/www/html/wp/wordpress/wp-content/plugins/contact-form-7/wp-contact-form-7.php",
+		"/var/www/html/wp/wordpress/wp-content/plugins/contact-form-7/license.txt",
+		"/var/www/projects/corporate/math_quiz/captcha_code.txt",
+		"/tmp/fz3temp-1/style.css",
+		"/var/www/projects/corporate/math_quiz/cf7-script.js",
+		"/tmp/fz3temp-1/scripts.js",
+		"/tmp/fz3temp-1/sendMail 2.php",
+		"/tmp/fz3temp-1/sendMail 3.php",
+		"/tmp/fz3temp-1/sendMail 4.php",
+		"/var/www/html/wp/test_php/math_captcha/js_captcha.php",
+		"/var/www/html/wp/wordpress/wp-content/themes/storefront/footer.php",
+		"/var/www/html/wp/wordpress/wp-content/plugins/contact-form-7/includes/js/scripts.js",
+		"/tmp/fz3temp-3/footer.php",
+		"/tmp/fz3temp-3/footer-new.php",
+		"/tmp/fz3temp-3/functions.php",
+		"/tmp/fz3temp-3/index 3.php",
+		"/tmp/fz3temp-3/index 4.php",
+		"/tmp/fz3temp-3/index 2.php",
+		"/tmp/fz3temp-3/index.php",
+		"/tmp/fz3temp-2/sendMail.php",
+		"/tmp/fz3temp-2/index.php",
+		"/tmp/fz3temp-2/sendMail 2.php",
+		"/var/www/html/wp/test_php/math_captcha/index.php",
+		"/tmp/fz3temp-1/template-blog.php",
+		"/var/www/html/wp/conshyGOP/themes/plugins/themeslr-framework/inc/shortcodes/mt-blog-posts/mt-blogpost01.php",
+		"/tmp/fz3temp-1/wp-config.php",
+		"/tmp/fz3temp-1/mailtest_template.php",
+		"/var/www/html/wp/CPT/mail_test.php",
+		"/var/www/html/wp/CPT/consultant/sendMail.php",
+		"/var/www/html/wp/CPT/consultant/index.php",
+		"/var/www/html/wp/test_php/math_captcha/index2.php",
+		"/tmp/fz3temp-1/functions.php",
+		"/var/www/html/wp/wordpress/wp-content/plugins/widget-post/widget-post.php",
+		"/tmp/fz3temp-2/functions.php",
+		"/var/www/html/wp/CPT/barcode_scan/index.php",
+		"/tmp/fz3temp-2/dist_new.css",
+		"/run/user/1001/gvfs/smb-share:server=192.168.1.139,share=linwoodforest/wp-content/themes/sydney-pro-ii/footer.php",
+		"/tmp/fz3temp-1/class-wp-review-slider-pro-public.php",
+		"/run/user/1001/gvfs/smb-share:server=192.168.1.139,share=linwoodforest/wp-content/plugins/wp-review-slider-pro-premium/public/class-wp-review-slider-pro-public.php",
+		"/run/user/1001/gvfs/smb-share:server=192.168.1.139,share=linwoodforest/wp-content/plugins/wp-review-slider-pro-premium/wp-review-slider-pro.php",
+		"/tmp/fz3temp-1/wp-review-slider-pro.php",
+		"/var/www/html/wp/wordpress/wp-content/plugins/custom-payment/custom-payment.php",
+		"/var/www/html/wp/linwood/5-9-18/wp-review-slider-pro-premium/public/class-wp-review-slider-pro-public.php",
+		"/var/www/html/wp/wordpress/wp-content/plugins/woocommerce/includes/wc-template-hooks.php",
+		"/var/www/html/wp/wordpress/web-api/getdata.php",
+		"/var/www/html/wp/wordpress/wp-content/themes/storefront/woocommerce/wc-template-functions.php",
+		"/var/www/html/wp/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php",
+		"/var/www/html/wp/wordpress/wp-content/plugins/woocommerce/templates/single-product/related.php",
+		"/var/www/html/wp/wordpress/wp-content/plugins/woocommerce/templates/single-product/tabs/tabs.php",
+		"/var/www/html/wp/wordpress/wp-content/themes/storefront/woocommerce/content-single-product.php",
+		"/var/www/html/wp/wordpress/wp-content/plugins/woocommerce/templates/single-product/review-meta.php",
+		"/var/www/html/wp/wordpress/wp-content/themes/storefront/woocommerce/templates/content-single-product.php"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 52.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "font-awesome.min.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 247.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

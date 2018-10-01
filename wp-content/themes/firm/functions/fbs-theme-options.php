@@ -1120,7 +1120,227 @@ $wp_customize->add_control( 'fbs_home_skill_four_percentage',
    )
 );
 
+/**
+ * Add portfolio section
+ */
+$wp_customize->add_section( 'fbs_home_portfolio_section',
+   array(
+      'title' => __( 'Homepage portfolio' ),
+      'description' => esc_html__( 'Homepage portfolio Section Settings' ),
+      'panel' => 'fbs_home_page_panel', // Only needed if adding your Section to a Panel
+      'priority' => '', // Not typically needed. Default is 160
+      'capability' => 'edit_theme_options', // Not typically needed. Default is edit_theme_options
+      'theme_supports' => '', // Rarely needed
+      'active_callback' => '', // Rarely needed
+      'description_hidden' => 'false', // Rarely needed. Default is False
+   )
+);
 
+
+
+
+$wp_customize->add_setting( 'fbs_home_portfolio_title',
+   array(
+      'default' => '',
+      'transport' => 'refresh',
+      'sanitize_callback' => ''
+   )
+);
+ 
+$wp_customize->add_control( 'fbs_home_portfolio_title',
+   array(
+      'label' => __( 'Skill four Title' ),
+      'section' => 'fbs_home_portfolio_section',
+      'priority' => 10, // Optional. Order priority to load the control. Default: 10
+      'type' => 'text', // Can be either text, email, url, number, hidden, or date
+      'capability' => 'edit_theme_options', // Optional. Default: 'edit_theme_options'
+      'input_attrs' => array( // Optional.
+         'class' => 'section_ct_title',
+         'style' => 'border: 1px solid #999',
+         'placeholder' => __( 'Enter Portfolio Section Title...' ),
+      ),
+   )
+);
+
+$wp_customize->add_setting( 'fbs_home_portfolio_total',
+   array(
+      'default' => '4',
+      'transport' => 'refresh',
+      'sanitize_callback' => ''
+   )
+);
+ 
+$wp_customize->add_control( 'fbs_home_portfolio_total',
+   array(
+      'label' => __( 'portfolio Total Items' ),
+      'section' => 'fbs_home_portfolio_section',
+      'priority' => 10, // Optional. Order priority to load the control. Default: 10
+      'type' => 'select', // Can be either text, email, url, number, hidden, or date
+       'choices' => array(
+           '3' => '3',
+           '4' => '4',
+           '6' => '6',
+           '8' => '8',
+       ),
+      'capability' => 'edit_theme_options', // Optional. Default: 'edit_theme_options'
+      
+   )
+);
+
+/**
+ * Add Contact section
+ */
+$wp_customize->add_section( 'fbs_home_contact_section',
+   array(
+      'title' => __( 'Homepage contact' ),
+      'description' => esc_html__( 'Homepage contact Section Settings' ),
+      'panel' => 'fbs_home_page_panel', // Only needed if adding your Section to a Panel
+      'priority' => '', // Not typically needed. Default is 160
+      'capability' => 'edit_theme_options', // Not typically needed. Default is edit_theme_options
+      'theme_supports' => '', // Rarely needed
+      'active_callback' => '', // Rarely needed
+      'description_hidden' => 'false', // Rarely needed. Default is False
+   )
+);
+
+
+
+
+$wp_customize->add_setting( 'fbs_home_contact_title',
+   array(
+      'default' => '',
+      'transport' => 'refresh',
+      'sanitize_callback' => ''
+   )
+);
+ 
+$wp_customize->add_control( 'fbs_home_contact_title',
+   array(
+      'label' => __( 'About Section Title' ),
+      'section' => 'fbs_home_contact_section',
+      'priority' => 10, // Optional. Order priority to load the control. Default: 10
+      'type' => 'text', // Can be either text, email, url, number, hidden, or date
+      'capability' => 'edit_theme_options', // Optional. Default: 'edit_theme_options'
+      'input_attrs' => array( // Optional.
+         'class' => 'section_ct_title',
+         'style' => 'border: 1px solid #999',
+         'placeholder' => __( 'Enter contact Section Title...' ),
+      ),
+   )
+);
+
+$wp_customize->add_setting( 'fbs_home_contact_form_shortcode',
+   array(
+      'default' => '',
+      'transport' => 'refresh',
+      'sanitize_callback' => ''
+   )
+);
+ 
+$wp_customize->add_control( 'fbs_home_contact_form_shortcode',
+   array(
+      'label' => __( 'Contact Form Shortcode' ),
+      'section' => 'fbs_home_contact_section',
+      'priority' => 10, // Optional. Order priority to load the control. Default: 10
+      'type' => 'text', // Can be either text, email, url, number, hidden, or date
+      'capability' => 'edit_theme_options', // Optional. Default: 'edit_theme_options'
+      'input_attrs' => array( // Optional.
+         'class' => 'section_ct_title',
+         'style' => 'border: 1px solid #999',
+         'placeholder' => __( 'Enter contact form Shortcode...' ),
+      ),
+   )
+);
+
+
+$wp_customize->add_setting( 'fbs_home_contact_address',
+   array(
+      'default' => '',
+      'transport' => 'refresh',
+      'sanitize_callback' => ''
+   )
+);
+ 
+
+$wp_customize->add_control( new Text_Editor_Custom_Control( $wp_customize, 'fbs_home_contact_address',
+   array(
+      'label' => __( 'About Us section content' ),
+      'section' => 'fbs_home_contact_section',
+      'priority' => 10, // Optional. Order priority to load the control. Default: 10
+      'type' => 'textarea',
+      'capability' => 'edit_theme_options',
+   )
+)
+);
+
+
+$wp_customize->add_setting( 'fbs_home_contact_number',
+   array(
+      'default' => '',
+      'transport' => 'refresh',
+      'sanitize_callback' => ''
+   )
+);
+ 
+$wp_customize->add_control( 'fbs_home_contact_number',
+   array(
+      'label' => __( 'Contact Number' ),
+      'section' => 'fbs_home_contact_section',
+      'priority' => 10, // Optional. Order priority to load the control. Default: 10
+      'type' => 'tel', // Can be either text, email, url, number, hidden, or date
+      'capability' => 'edit_theme_options', // Optional. Default: 'edit_theme_options'
+      'input_attrs' => array( // Optional.
+         'class' => 'section_ct_title',
+         'style' => 'border: 1px solid #999',
+         'placeholder' => __( 'Enter contact number...' ),
+      ),
+   )
+);
+$wp_customize->add_setting( 'fbs_home_contact_email',
+   array(
+      'default' => '',
+      'transport' => 'refresh',
+      'sanitize_callback' => ''
+   )
+);
+ 
+$wp_customize->add_control( 'fbs_home_contact_email',
+   array(
+      'label' => __( 'Contact Email' ),
+      'section' => 'fbs_home_contact_section',
+      'priority' => 10, // Optional. Order priority to load the control. Default: 10
+      'type' => 'email', // Can be either text, email, url, number, hidden, or date
+      'capability' => 'edit_theme_options', // Optional. Default: 'edit_theme_options'
+      'input_attrs' => array( // Optional.
+         'class' => 'section_ct_title',
+         'style' => 'border: 1px solid #999',
+         'placeholder' => __( 'Enter contact email...' ),
+      ),
+   )
+);
+
+$wp_customize->add_setting( 'fbs_home_contact_map',
+   array(
+      'default' => '',
+      'transport' => 'refresh',
+      'sanitize_callback' => ''
+   )
+);
+ 
+$wp_customize->add_control( 'fbs_home_contact_map',
+   array(
+      'label' => __( 'Map Iframe' ),
+      'section' => 'fbs_home_contact_section',
+      'priority' => 10, // Optional. Order priority to load the control. Default: 10
+      'type' => 'email', // Can be either text, email, url, number, hidden, or date
+      'capability' => 'edit_theme_options', // Optional. Default: 'edit_theme_options'
+      'input_attrs' => array( // Optional.
+         'class' => 'section_ct_title',
+         'style' => 'border: 1px solid #999',
+         'placeholder' => __( 'Enter map iframe' ),
+      ),
+   )
+);
 
 }
 add_action( 'customize_register', 'fbs_customize_register' );

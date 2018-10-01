@@ -21,18 +21,7 @@ jQuery(function ($) {
         }
     }
 });
-
-// $("#skill_one").circliful({
-//         animation: 1,
-//         animationStep: 5,
-//         foregroundBorderWidth: 15,
-//         backgroundBorderWidth: 15,
-//         percent: 80,
-//         textSize: 28,
-//         percentages: [10, 20, 30],
-//         foregroundColor: '#BDA851',
-//     });
-
+/*Skill Section Homepage*/
 var percentage1 = $('#fbs_home_skill_one_percentage').html();
   $('#skill_one').circliful({
      	animation: 1,
@@ -93,8 +82,46 @@ var percentage1 = $('#fbs_home_skill_one_percentage').html();
 
   });
 
-})
-/*Skills Cirle Animation*/
-function skills(id) {
+ });
 
- }
+
+/*Portfolio Filter*/
+
+   jQuery(document).ready(function($) {
+
+    $('#portfolio-list .all').fadeIn(100);
+    
+        var $activeFilter = $('a[data-filter=".all"]');
+        $activeFilter.addClass('active');       
+        
+
+        $('#portfolio-filter a').click(function() {
+           /* if ($(window).width() < 1019) {
+                jQuery('.slider-arrow').hide();
+                jQuery('#hide-dsk').show();
+                jQuery(".leftalignclass").hide();
+                jQuery(".slider-arrow #fade").css('transform', 'rotate(0deg)');
+            }*/
+
+
+            /*$('#portfolio-list .all').fadeIn(100);*/
+            $activeFilter = $(this);
+            $('#portfolio-filter a').removeClass('active');
+            $(this).addClass('active');
+
+             var filter = $(this).attr('data-filter');
+            $('#portfolio-list ' + filter + '').fadeOut(100);
+           
+
+            $('#portfolio-list .all:not(' + filter + ')').fadeOut(0).promise().done(function() {
+                $('#portfolio-list ' + filter + '').fadeIn(100);
+            });
+
+            if (filter == ".all") {
+                $('#portfolio-list ' + filter + '').fadeIn(100);
+            }
+        });
+
+    });
+
+  
